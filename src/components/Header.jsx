@@ -1,31 +1,32 @@
-import React from 'react'
+import React from "react";
 import { RiLinkedinFill } from "react-icons/ri";
 import { AiOutlineGithub } from "react-icons/ai";
-import { languageData } from '../data';
-
-
-
+import { languageData } from "../data";
 
 const Header = () => {
-    
   return (
     <>
-    <button></button>
-    <button></button>
-    <div className='flex'>
-        <div className=' text-4xl ps-2.5 font-sans m-2 p-3'>
-            <p>{languageData.en.hero.greeting}</p>
-            <p>{languageData.en.hero.intro}</p>
+      <div className="flex gap-30 justify-evenly p-32 pt-16">
+        <div className=" text-4xl ps-2.5 font-sans m-2 p-10 max-w-5xl h-60 ">
+          <p>{languageData.en.header.greeting}</p>
+          <p>{languageData.en.header.intro}</p>
 
-            <div className='text-5xl flex justify-start'>
-            <RiLinkedinFill /><AiOutlineGithub/>
-            </div>
+          <div className="text-5xl flex justify-start mt-10 mb-5">
+            <RiLinkedinFill className=" dark:text-slate-300"/>
+            <AiOutlineGithub className=" dark:text-slate-300"/>
+          </div>
+          <p className="text-base p-2">
+            Currently Freelancing for UX, UI, & Web Design Project.Invite me to
+            join your team - sevvallsaglam@gmail.com
+          </p>
         </div>
-            <img src='https://media.licdn.com/dms/image/v2/D4D03AQGMLcitYEY-3w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693150982453?e=1731542400&v=beta&t=durwbKz5KXmmzID6jcaRU7sve0hzm8OO-1G0jPNnCnM' className='w-60 h-60 '/>
-        </div>
-        <p>Currently Freelancing for UX, UI, & Web Design Project.Invite me to join your team - sevvallsaglam@gmail.com</p>
+        <img
+          src={languageData.en.header.profile_img}
+          className="w-96 h-96 rounded-3xl border-solid	border-l-8 border-t-8 border-pink-600 "
+        />
+      </div>
     </>
-  )
-}
+  );
+};
 
 export default Header;
