@@ -36,26 +36,35 @@ export const languageData = {
           "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
       },
     },
+    projects_title: { title: "Projects" },
     projects: {
-      title: "Projects",
       project_1: {
-        title: "Random Jokes",
+        title: "WITFLIX",
         text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-        topics: ["react", "vercell", "axios", "router"],
-        img: "",
+        topics: ["HTML", "CSS"],
+        github: "View on Github",
+        github_link: "https://github.com/sevvalsaglam",
+        go_app: "Go to app→",
+        app_link: "",
+        img: "Interfaces/project-img/Adsız tasarım.png",
       },
-      project_2:{
-        title: "Are you bored?",
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
-        topics: ["react", "redux", "axios", "router", "vercel"],
-        img: "",
-      }
+      project_2: {
+        title: "Piza Challange",
+        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+        topics: ["react", "axios", "router", "vercel"],
+        github: "View on Github",
+        github_link: "https://github.com/sevvalsaglam",
+        go_app: "Go to app→",
+        app_link: "",
+        img: "Interfaces/project-img/Adsız tasarım (1).png",
+      },
     },
+    footer: "Let’s work together on your next product.",
   },
   tr: {
     header: {
       greeting: "Selam 👋🏻",
-      intro: "Ben Şevval. Ben bir full-stack geliştiriciyim. Hadi tanışalım!",
+      intro: "Ben Şevval. Full-stack geliştiriciyim. Hadi tanışalım!",
       profile_img:
         "Interfaces/profile-img/DED680C4-A747-429B-AAE9-C3D233F256E7.JPG",
       profile_name: "Şevval",
@@ -88,47 +97,55 @@ export const languageData = {
           "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
       },
     },
+    projects_title: { title: "Projeler" },
     projects: {
-      title: "Projeler",
       project_1: {
-        title: "Rastgele Şakalar",
+        title: "WITFLIX",
         text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-        topics: ["react", "vercell", "axios", "router"],
-        img: "",
+        topics: ["HTML", "CSS"],
+        github: "GitHub'da Görüntüle",
+        github_link: "https://github.com/sevvalsaglam",
+        go_app: "Uygulamaya Git→",
+        img: "Interfaces/project-img/Adsız tasarım.png",
       },
-      project_2:{
-        title: "Sıkıldın mı?",
+      project_2: {
+        title: "Pizza Challange",
         text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
         topics: ["react", "vercell", "axios", "router"],
-        img: "",
-      }
+        github: "GitHub'da Görüntüle",
+        github_link: "https://github.com/sevvalsaglam",
+        go_app: "Uygulamaya Git→",
+        img: "Interfaces/project-img/Adsız tasarım (1).png",
+      },
     },
+    footer: "Sıradaki projeniz üzerinde beraber çalışalım.",
   },
+ 
 };
 
 export const skillsData = [
   {
-    title: "JAVASCRİPT",
+    alt: "JAVASCRİPT",
     img: "Interfaces/s12-project-images/JavaScript-logo.png",
   },
   {
-    title: "REACT",
+    alt: "REACT",
     img: "Interfaces/s12-project-images/282599.webp",
   },
   {
-    title: "REDUX",
+    alt: "REDUX",
     img: "Interfaces/s12-project-images/unnamed.webp",
   },
   {
-    title: "NODE",
+    alt: "NODE",
     img: "Interfaces/s12-project-images/tst,small,845x845-pad,1000x1000,f8f8f8.u3.webp",
   },
   {
-    title: "VS CODE",
+    alt: "VS CODE",
     img: "Interfaces/s12-project-images/visual-studio-code-icon-2048x2026-9ua8vqiy.png",
   },
   {
-    title: "FIGMA",
+    alt: "FIGMA",
     img: "Interfaces/s12-project-images/85f69649-5387-44c2-ba45-81ae13812e36-cover.png",
   },
 ];

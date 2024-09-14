@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style:normal;
+    }
+  }
+
+  .sectionhigh {
+    height: 680px;
+  }
+
+  .images {
+    width: 100%;
+  }
