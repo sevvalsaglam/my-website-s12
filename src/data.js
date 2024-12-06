@@ -49,7 +49,7 @@ export const languageData = {
         img: "Interfaces/project-img/Adsız tasarım.png",
       },
       project_2: {
-        title: "Piza Challange",
+        title: "Pizza Challange",
         text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
         topics: ["react", "axios", "router", "vercel"],
         github: "View on Github",
@@ -120,7 +120,6 @@ export const languageData = {
     },
     footer: "Sıradaki projeniz üzerinde beraber çalışalım.",
   },
- 
 };
 
 export const skillsData = [

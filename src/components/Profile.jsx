@@ -10,19 +10,20 @@ const Profile = () => {
       <h2 className="text-4xl	text-center mt-12 p-12">
         {langData.profile.title}
       </h2>
-      <div className="flex gap-10 p-10">
-        <div className="bg-white rounded-xl border-solid	border-r-8 border-b-8 border-gray-400	w-1/2 h-72 p-7 dark:bg-neutral-600">
+      <div className="flex gap-24 p-12 ml-8">
+        <div className="bg-white rounded-xl border-solid	border-r-8 border-b-8 border-gray-400	w-1/2  p-12 pl-0 ml-0 pr-0 mr-0 dark:bg-neutral-600">
           <h3 className="text-pink-500 text-2xl pl-7">
             {langData.profile.basic_information.title}
           </h3>
           <div className="flex text-lg gap-7 p-7">
-            <div className="font-bold w-1/2">
+            <div className="font-bold w-56 text-left">
               <p>{langData.profile.basic_information.keys.key_1}</p>
               <p>{langData.profile.basic_information.keys.key_2}</p>
               <p>{langData.profile.basic_information.keys.key_3}</p>
+              <p className="text-white dark:text-neutral-600">{langData.profile.basic_information.keys.key_4}</p>
               <p>{langData.profile.basic_information.keys.key_4}</p>
             </div>
-            <div>
+            <div className="text-left">
               <p>{langData.profile.basic_information.values.value_1}</p>
               <p>{langData.profile.basic_information.values.value_2}</p>
               <p>{langData.profile.basic_information.values.value_3}</p>

@@ -4,10 +4,8 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { useContext } from "react";
 import { GlobalContext } from "../context/GlobalContext";
 
-
 const Header = () => {
-  const {langData}=
-  useContext(GlobalContext);
+  const { langData } = useContext(GlobalContext);
   return (
     <>
       <div className="flex gap-30 justify-evenly p-32 pt-16">

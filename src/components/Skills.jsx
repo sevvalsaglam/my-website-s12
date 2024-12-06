@@ -11,11 +11,8 @@ const Skills = () => {
       <div className="flex flex-row justify-center items-center gap-8 mt-24 mb-24">
         {skillsData.map((skill) => (
           <div>
-          <img
-            className="w-28 h-28 rounded-2xl"
-            src={skill.img}
-            alt='' 
-          /> <p className="text-gray-400 text-center pt-4">{skill.alt} </p>
+            <img className="w-28 h-28 rounded-2xl" src={skill.img} alt="" />{" "}
+            <p className="text-gray-400 text-center pt-4">{skill.alt} </p>
           </div>
         ))}
       </div>
