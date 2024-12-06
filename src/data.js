@@ -5,7 +5,7 @@ export const languageData = {
       intro:
         "I’m Şevval. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
       profile_img:
-        "Interfaces/profile-img/DED680C4-A747-429B-AAE9-C3D233F256E7.JPG",
+        "public/profile-img/DED680C4-A747-429B-AAE9-C3D233F256E7.JPG",
       profile_name: "Şevval",
     },
     skills: {
@@ -46,7 +46,7 @@ export const languageData = {
         github_link: "https://github.com/sevvalsaglam",
         go_app: "Go to app→",
         app_link: "",
-        img: "Interfaces/project-img/Adsız tasarım.png",
+        img: "public/project-img/Adsız tasarım.png",
       },
       project_2: {
         title: "Pizza Challange",
@@ -56,7 +56,7 @@ export const languageData = {
         github_link: "https://github.com/sevvalsaglam",
         go_app: "Go to app→",
         app_link: "",
-        img: "Interfaces/project-img/Adsız tasarım (1).png",
+        img: "public/project-img/Adsız tasarım (1).png",
       },
     },
     footer: "Let’s work together on your next product.",
@@ -66,7 +66,7 @@ export const languageData = {
       greeting: "Selam 👋🏻",
       intro: "Ben Şevval. Full-stack geliştiriciyim. Hadi tanışalım!",
       profile_img:
-        "Interfaces/profile-img/DED680C4-A747-429B-AAE9-C3D233F256E7.JPG",
+        "public/profile-img/DED680C4-A747-429B-AAE9-C3D233F256E7.JPG",
       profile_name: "Şevval",
     },
     skills: {
@@ -106,7 +106,7 @@ export const languageData = {
         github: "GitHub'da Görüntüle",
         github_link: "https://github.com/sevvalsaglam",
         go_app: "Uygulamaya Git→",
-        img: "Interfaces/project-img/Adsız tasarım.png",
+        img: "public/project-img/Adsız tasarım.png",
       },
       project_2: {
         title: "Pizza Challange",
@@ -115,7 +115,7 @@ export const languageData = {
         github: "GitHub'da Görüntüle",
         github_link: "https://github.com/sevvalsaglam",
         go_app: "Uygulamaya Git→",
-        img: "Interfaces/project-img/Adsız tasarım (1).png",
+        img: "public/project-img/Adsız tasarım (1).png",
       },
     },
     footer: "Sıradaki projeniz üzerinde beraber çalışalım.",
@@ -125,26 +125,26 @@ export const languageData = {
 export const skillsData = [
   {
     alt: "JAVASCRİPT",
-    img: "Interfaces/s12-project-images/JavaScript-logo.png",
+    img: "public/s12-project-images/JavaScript-logo.png",
   },
   {
     alt: "REACT",
-    img: "Interfaces/s12-project-images/282599.webp",
+    img: "public/s12-project-images/282599.webp",
   },
   {
     alt: "REDUX",
-    img: "Interfaces/s12-project-images/unnamed.webp",
+    img: "public/s12-project-images/unnamed.webp",
   },
   {
     alt: "NODE",
-    img: "Interfaces/s12-project-images/tst,small,845x845-pad,1000x1000,f8f8f8.u3.webp",
+    img: "public/s12-project-images/tst,small,845x845-pad,1000x1000,f8f8f8.u3.webp",
   },
   {
     alt: "VS CODE",
-    img: "Interfaces/s12-project-images/visual-studio-code-icon-2048x2026-9ua8vqiy.png",
+    img: "public/s12-project-images/visual-studio-code-icon-2048x2026-9ua8vqiy.png",
   },
   {
     alt: "FIGMA",
-    img: "Interfaces/s12-project-images/85f69649-5387-44c2-ba45-81ae13812e36-cover.png",
+    img: "public/s12-project-images/85f69649-5387-44c2-ba45-81ae13812e36-cover.png",
   },
 ];
